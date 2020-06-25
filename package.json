@@ -1,0 +1,34 @@
+{
+  "name": "ComfortableObject",
+  "version": "1.0.0",
+  "description": "Make object more comfortable.",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://cyse-ars@bitbucket.org/cyse-ars/temp.git"
+  },
+  "keywords": [
+    "object",
+    "comfortable"
+  ],
+  "author": "ars",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/cyse-ars/temp#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.3",
+    "@types/node": "^14.0.14",
+    "@typescript-eslint/eslint-plugin": "^3.4.0",
+    "@typescript-eslint/parser": "^3.4.0",
+    "eslint": "^7.3.1",
+    "jest": "^26.1.0",
+    "ts-jest": "^26.1.1",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "object-sizeof": "^1.6.1"
+  }
+}
